@@ -2,8 +2,7 @@
 
 
 
-<x-layout>
-
+<x-layout>    
     <div class="container py-5">
         <div class="row align-items-center justify-content-center min-vh-100">
             <div class="col-12 col-md-8">
@@ -45,15 +44,19 @@
                     </div>
 
                     <!-- Bottone INVIA -->
-                    
-                        <button type="submit" class="d-felx justify-content-center btn btn-danger">Submit</button>
-                    
+
+                    <button type="submit" class="d-felx justify-content-center btn btn-danger">Submit</button>
+
                 </form>
                 <!-- FINE FORM -->
 
             </div>
         </div>
     </div>
+
+
+
+    <x-footer />
 </x-layout>
 
 

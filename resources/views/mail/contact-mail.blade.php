@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">
+    <h1 class="fw-bold text-center display-2 text-danger">
         ciao {{$username}}
     </h1>
     <p>Questi i tuoi dati personali; </p>
