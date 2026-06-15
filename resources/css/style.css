@@ -1,0 +1,47 @@
+
+/* IMPOSTO I TITOLI CON IL LOTO STILE PARTICOLARE DI FONT-TESTO */
+
+
+h1,h2,h3,h4,h5, .h1, .h2, .h3, .h4, .h5 {
+
+    font-family: "Orbitron", sans-serif;
+}
+
+
+
+/*  */
+.bg-custom {
+    min-height: 100vh;
+background: linear-gradient(yellow, transparent, violet),
+        url('/public/media/go.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+
+    color: purple;
+    font-weight: 500;
+}
+
+/* ALTEZZA ALLA ROW */
+.height-custom{
+
+    height: 40vh;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    border-top: 4px solid red;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
